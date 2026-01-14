@@ -20,6 +20,7 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 /* NAVBAR */
 
@@ -102,7 +103,7 @@ header {
 
 .services {
   padding: 4rem 2rem;
-  background-color: #f9fafb;
+  background-color: var(--bg-color);
 }
 
 .services h2 {
@@ -121,7 +122,7 @@ header {
 }
 
 .service-card {
-  background-color: #ffffff;
+  background-color: var(--bg-color);
   padding: 2rem;
   border-radius: 10px;
   text-align: center;
@@ -143,7 +144,14 @@ header {
   background-color: #111827;
   color: #ffffff;
 }
-/*  DARK MODE */
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* DARK MODE THEME */
 
 body.dark-mode {
   --bg-color: #0f172a;
@@ -151,13 +159,75 @@ body.dark-mode {
   --muted-text: #9ca3af;
 }
 
-body.dark-mode .services {
+/* Navbar */
+body.dark-mode header {
   background-color: #020617;
 }
 
-.theme-toggle {
-  background: none;
-  border: none;
-  font-size: 1.2rem;
-  cursor: pointer;
+/* Footer */
+body.dark-mode .footer {
+  background-color: #020617;
+}
+/* WELCOME NOTE */
+
+.welcome-note {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.4rem 1rem;
+  background-color: rgba(79, 70, 229, 0.1);
+  color: var(--primary-color);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* ABOUT SECTION */
+
+.about {
+  padding: 4rem 2rem;
+  background-color: var(--bg-color);
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.about p {
+  margin-bottom: 1.2rem;
+  color: var(--muted-text);
+  line-height: 1.8;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+  padding: 4rem 2rem;
+  background-color: #f9fafb;
+}
+
+body.dark-mode .contact {
+  background-color: #020617;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-details p {
+  margin-top: 0.8rem;
+  font-size: 1rem;
 }
