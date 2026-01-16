@@ -8,7 +8,7 @@
 
 \- \*\*Name:\*\* Krishna Kumar  
 
-\- \*\*Role:\*\* Software Engineering Intern  
+\- \*\*Role:\*\* Frontend Developer Intern  
 
 \- \*\*Company:\*\* Prodesk IT  
 
