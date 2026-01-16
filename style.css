@@ -231,3 +231,39 @@ body.dark-mode .contact {
   margin-top: 0.8rem;
   font-size: 1rem;
 }
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  /* Hero Section */
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  /* Services Grid */
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* About & Contact spacing */
+  .about,
+  .contact {
+    padding: 3rem 1.5rem;
+  }
+}
