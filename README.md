@@ -1,6 +1,8 @@
+## Project Preview
+
+![Prodesk IT Landing Page](assests/images/homepage.png)
+
 \# Prodesk IT – Digital Agency Landing Page
-
-
 
 \## Intern Details
 
